@@ -30,9 +30,8 @@ DomEvent
 	阻止默认的事件触发，如a href、input submit的触发，这个函数主要内部使用。
 
 （5）同时阻止冒泡 & 默认事件：
-`stop（e）`
-
-同时调用stopPropagation和preventDefault。
+`stop（e）`    
+`同时调用stopPropagation和preventDefault。`    
 （6）阻止Click的事件冒泡：
 `disableClickPropagation(el)`
 
